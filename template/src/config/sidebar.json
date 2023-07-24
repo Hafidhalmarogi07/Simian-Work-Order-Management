@@ -1,0 +1,11 @@
+{
+    "admin":[
+        {
+            "title":"Dashboard",
+            "iconClass":"fas fa-tachometer-alt",
+            "route":{
+                "name":"dashboard"
+            }
+        }
+    ]
+}

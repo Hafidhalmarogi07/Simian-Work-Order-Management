@@ -1,0 +1,11 @@
+/*
+!/public/
+!/src/
+!/.env
+!/.env.*
+/.env.local
+!/.gitignore
+!/*.js
+!/*.json
+!/*.lock
+!/README.md

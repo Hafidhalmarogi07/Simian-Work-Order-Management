@@ -1,0 +1,161 @@
+.ellipsis {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.user-panel img {
+    height: 2.1rem;
+    width: 2.1rem;
+    object-fit: cover;
+}
+
+.dataTable th {
+    border-top: 0 !important;
+}
+.dataTable.table-bordered {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.card-table .card-body {
+    padding: 0;
+}
+
+.card-footer {
+    border-top: 1px solid rgba(0,0,0,.125);
+    background-color: #fff;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.dataTable tbody > tr > td:hover {
+    cursor: pointer;
+}
+
+.navbar-nav .user-image {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -2px;
+    object-fit: cover;
+}
+
+.navbar-nav .user-image-nav {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+}
+
+.small-box .inner {
+    min-height: 125px;
+}
+
+.form-group>label::after {
+    content: ' :'
+}
+.custom_table{
+        overflow-x: auto;
+        max-height: 200px;
+}
+
+.custom_image{
+    height: 150px;
+}
+
+#snackbar, #snackbar-dialog-1, #snackbar-dialog-2, #snackbar-dialog-3 {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show, #snackbar-dialog-1.show, #snackbar-dialog-2.show, #snackbar-dialog-3.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+/* This is a compiled file, to make changes persist, consider editing under the templates directory */
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    -webkit-transform: translate3d(0, -50px, 0);
+    -ms-transform: translate3d(0, -50px, 0);
+    transform: translate3d(0, -50px, 0);
+  
+    -webkit-transition: -webkit-transform .5s ease-out;
+    -ms-transition: -webkit-transform .5s ease-out;
+    transition: transform .5s ease-out;
+  }
+  
+  .pace.pace-active {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .pace .pace-progress {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 10px;
+    background: #000000;
+  
+    pointer-events: none;
+  }
